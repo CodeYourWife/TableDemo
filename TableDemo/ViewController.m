@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ReciveOrderTableView.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    ReciveOrderTableView* tableView = [[ReciveOrderTableView alloc] initWithFrame:CGRectMake(0, 0, 320, 400)];
+    [self.view addSubview:tableView];
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

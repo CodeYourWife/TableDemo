@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ReciveOrderTableView.h
 //  TableDemo
 //
 //  Created by jianghai on 15/9/18.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-@property (strong, nonatomic) IBOutlet UIView *tableView;
+@interface ReciveOrderTableView : UITableView
+
 
 @end
-

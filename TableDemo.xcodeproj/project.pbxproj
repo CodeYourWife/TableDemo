@@ -15,6 +15,10 @@
 		A05F2E341BABA48A00F0F1E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05F2E321BABA48A00F0F1E1 /* LaunchScreen.storyboard */; };
 		A05F2E3F1BABA48A00F0F1E1 /* TableDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A05F2E3E1BABA48A00F0F1E1 /* TableDemoTests.m */; };
 		A05F2E4A1BABA48A00F0F1E1 /* TableDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A05F2E491BABA48A00F0F1E1 /* TableDemoUITests.m */; };
+		A063768F1BAEA9AD0073A0EC /* ReciveOrderTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A06376881BAEA9AD0073A0EC /* ReciveOrderTableView.m */; };
+		A06376901BAEA9AD0073A0EC /* ReciveOrderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A063768A1BAEA9AD0073A0EC /* ReciveOrderTableViewCell.m */; };
+		A06376911BAEA9AD0073A0EC /* ShopGuideModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A063768C1BAEA9AD0073A0EC /* ShopGuideModel.m */; };
+		A06376921BAEA9AD0073A0EC /* ShopGuideModelList.m in Sources */ = {isa = PBXBuildFile; fileRef = A063768E1BAEA9AD0073A0EC /* ShopGuideModelList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		A05F2E451BABA48A00F0F1E1 /* TableDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A05F2E491BABA48A00F0F1E1 /* TableDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableDemoUITests.m; sourceTree = "<group>"; };
 		A05F2E4B1BABA48A00F0F1E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A06376871BAEA9AD0073A0EC /* ReciveOrderTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReciveOrderTableView.h; sourceTree = "<group>"; };
+		A06376881BAEA9AD0073A0EC /* ReciveOrderTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReciveOrderTableView.m; sourceTree = "<group>"; };
+		A06376891BAEA9AD0073A0EC /* ReciveOrderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReciveOrderTableViewCell.h; sourceTree = "<group>"; };
+		A063768A1BAEA9AD0073A0EC /* ReciveOrderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReciveOrderTableViewCell.m; sourceTree = "<group>"; };
+		A063768B1BAEA9AD0073A0EC /* ShopGuideModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopGuideModel.h; sourceTree = "<group>"; };
+		A063768C1BAEA9AD0073A0EC /* ShopGuideModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopGuideModel.m; sourceTree = "<group>"; };
+		A063768D1BAEA9AD0073A0EC /* ShopGuideModelList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopGuideModelList.h; sourceTree = "<group>"; };
+		A063768E1BAEA9AD0073A0EC /* ShopGuideModelList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopGuideModelList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,7 @@
 		A05F2E231BABA48A00F0F1E1 /* TableDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A06376861BAEA9AD0073A0EC /* ReciveOrderTableView */,
 				A05F2E271BABA48A00F0F1E1 /* AppDelegate.h */,
 				A05F2E281BABA48A00F0F1E1 /* AppDelegate.m */,
 				A05F2E2A1BABA48A00F0F1E1 /* ViewController.h */,
@@ -138,6 +151,21 @@
 				A05F2E4B1BABA48A00F0F1E1 /* Info.plist */,
 			);
 			path = TableDemoUITests;
+			sourceTree = "<group>";
+		};
+		A06376861BAEA9AD0073A0EC /* ReciveOrderTableView */ = {
+			isa = PBXGroup;
+			children = (
+				A06376871BAEA9AD0073A0EC /* ReciveOrderTableView.h */,
+				A06376881BAEA9AD0073A0EC /* ReciveOrderTableView.m */,
+				A06376891BAEA9AD0073A0EC /* ReciveOrderTableViewCell.h */,
+				A063768A1BAEA9AD0073A0EC /* ReciveOrderTableViewCell.m */,
+				A063768B1BAEA9AD0073A0EC /* ShopGuideModel.h */,
+				A063768C1BAEA9AD0073A0EC /* ShopGuideModel.m */,
+				A063768D1BAEA9AD0073A0EC /* ShopGuideModelList.h */,
+				A063768E1BAEA9AD0073A0EC /* ShopGuideModelList.m */,
+			);
+			path = ReciveOrderTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +235,7 @@
 				TargetAttributes = {
 					A05F2E201BABA48A00F0F1E1 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 4P6XTQVRFY;
 					};
 					A05F2E391BABA48A00F0F1E1 = {
 						CreatedOnToolsVersion = 7.0;
@@ -272,7 +301,11 @@
 			files = (
 				A05F2E2C1BABA48A00F0F1E1 /* ViewController.m in Sources */,
 				A05F2E291BABA48A00F0F1E1 /* AppDelegate.m in Sources */,
+				A063768F1BAEA9AD0073A0EC /* ReciveOrderTableView.m in Sources */,
+				A06376921BAEA9AD0073A0EC /* ShopGuideModelList.m in Sources */,
 				A05F2E261BABA48A00F0F1E1 /* main.m in Sources */,
+				A06376911BAEA9AD0073A0EC /* ShopGuideModel.m in Sources */,
+				A06376901BAEA9AD0073A0EC /* ReciveOrderTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +446,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TableDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.meilele.tableDemo.TableDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +459,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TableDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.meilele.tableDemo.TableDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +535,7 @@
 				A05F2E501BABA48A00F0F1E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A05F2E511BABA48A00F0F1E1 /* Build configuration list for PBXNativeTarget "TableDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +544,7 @@
 				A05F2E531BABA48A00F0F1E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A05F2E541BABA48A00F0F1E1 /* Build configuration list for PBXNativeTarget "TableDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +553,7 @@
 				A05F2E561BABA48A00F0F1E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
